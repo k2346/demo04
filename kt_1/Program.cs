@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kt_1
+namespace kt_5
 {
     class Program
     {

@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kamerat.cs" />
+    <Compile Include="Kirja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ruokia.cs" />
+    <Compile Include="tavarat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
