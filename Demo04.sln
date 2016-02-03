@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApplication", "CarApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonApplication", "PersonApplication\PersonApplication.csproj", "{4447252E-222D-471E-ADD6-2F0E96E10295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kt_5", "kt_1\kt_5.csproj", "{6670EEF5-115B-4447-80EF-9EF428137274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kt_6", "kt_6\kt_6.csproj", "{BE7B9B81-9559-4D73-B69A-B748658A84CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4447252E-222D-471E-ADD6-2F0E96E10295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4447252E-222D-471E-ADD6-2F0E96E10295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4447252E-222D-471E-ADD6-2F0E96E10295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6670EEF5-115B-4447-80EF-9EF428137274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6670EEF5-115B-4447-80EF-9EF428137274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6670EEF5-115B-4447-80EF-9EF428137274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6670EEF5-115B-4447-80EF-9EF428137274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7B9B81-9559-4D73-B69A-B748658A84CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7B9B81-9559-4D73-B69A-B748658A84CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7B9B81-9559-4D73-B69A-B748658A84CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7B9B81-9559-4D73-B69A-B748658A84CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
