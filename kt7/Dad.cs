@@ -9,7 +9,17 @@ namespace kt7
     class Dad : person
     {
          public int Money { get; set; }
-         private void DadMethod()
+
+        public Dad()
+        {
+        }
+
+        public Dad(string name, int age, string address, int money) 
+            : base(name,age,address)
+        {
+            Money = money;
+        }
+        public void DadMethod()
         {
             Console.WriteLine("*Spanking*");
         }

@@ -14,11 +14,22 @@ namespace kt7
             dad.Name = "Seppo Taalasmaa";
             dad.Age = 57;
             dad.Address = "Piippukatu 2 40100 Jkl";
+            dad.Money = 894826001;
 
+            Teenager teenager = new Teenager();
+            teenager.Name = "Mirkkuli Taalasmaa";
+            teenager.Age = 14;
+            teenager.Address = dad.Address;
+            teenager.Money = dad.Money;
+            teenager.CoolLevel = 7;
 
-            {
-                dad.ToString();
-            }
+            Console.WriteLine("Dad = " + dad.ToString());
+            Console.WriteLine("Teenager = " + teenager.ToString());
+            //  Console.WriteLine(teenager.TeenagerMethod2());
+           // Console.WriteLine(dad.DadMethod());
+            //Console.WriteLine(teenager.TeenagerMethod1());
+            
+           
         }
     }
 }

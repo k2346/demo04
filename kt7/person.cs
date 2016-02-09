@@ -11,6 +11,18 @@ namespace kt7
         public string Name { get; set; }
         public string Address {get; set;}
         public int Age { get; set; }
+
+        public person()
+        {
+        }
+
+        public person(string name, int age, string address) // alustaa olion ominaisuudet
+        {
+            Name = name;
+            Age = age;
+            Address = address;
+
+        }
         public void PersonMethod()
         {
             Console.WriteLine("Walking.. ->>");
